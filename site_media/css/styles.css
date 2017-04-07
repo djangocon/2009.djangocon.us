@@ -1,0 +1,172 @@
+html { overflow: -moz-scrollbars-vertical !important; }
+
+body { margin: 0; padding: 0; background: #000; font-family: Arial; font-size: 62.5%; }
+
+table { width: 90%; margin-bottom: 40px; }
+table tr th { color: #abcb55; font-size: 1.2em; }
+table tr td { color: #fff; }
+table tr th.time, table tr td.time { color: #8d8d8d; font-size: 1.2em; }
+table thead tr { background: #0b0b0b; }
+table thead tr th { border-top: 1px solid #494949; }
+table thead tr th, table tr td { padding: 10px; }
+table tr.even { background: #0b0b0b; }
+table tr td.talk { width: 37%; }
+
+#header { background: url('/site_media/images/background.jpg') repeat-x; height: 167px; display: block; width: 99.9999%; }
+#conf-info { padding-top: 35px; float: right; margin-right: 25px;}
+#conf-logo { float: left; padding-top: 20px; margin-left: 15px;}
+.conf-date { color: #fff; font-size: 2.3em; margin: 0; font-weight: bold; }
+.conf-loc { color: #233b2d; font-size; 1.5em; font-weight: bold; text-transform: uppercase; }
+
+h2 { font-size: 2.2em; font-weight: normal; color: #fff; margin-top: 40px;}
+h2.intro-heading {  font-size: 3.8em; color: #fff; font-weight: normal; margin-top: 40px; }
+
+#center #post-detail .entry-header p {  clear: both; margin-left: -5px; }
+#center #post-detail .entry-header p a { margin-right: 4px;}
+
+.section { border-bottom: 1px dashed #484848; padding-bottom: 10px; width: 522px;}
+
+.section-last { border-bottom: none;}
+#center h3 { color: #abcb55; font-size: 1.5em; font-weight: normal; padding-top: 9px;}
+
+.intro-emph { color: #abcb55; }
+
+.intro { border-bottom: 1px solid #484848; font-size: 1.2em; color: #fff; padding-bottom: 30px; line-height: 1.6em;  }
+#center p { color: #fff; line-height: 1.8em; font-size: 1.2em; font-weight: none; color: #fff;}
+#header-container {  width: 590px; margin: 0 auto; }
+#container { width: 900px; margin: 40px auto; text-align: center; position: relative;}
+
+#left { position: absolute; width: 200px; top: 0; }
+#right { position: absolute; width: 200px; top: 0; left: 750px;}
+#center { margin: 0 200px; width: 524px; text-align: left;}
+
+ul#navigation { list-type: none; padding-top: 40px; clear: both; margin: 0 0 0 -3px; }
+ul#navigation li { list-style-type: none; color: #030303; font-size: 11px; text-transform: uppercase; display: inline; margin-right: 25px; }
+ul#navigation li.last { margin-right: 0;}
+
+ul#navigation li a { color: #030303; text-decoration: none; padding: 10px 10px 20px 10px; }
+ul#navigation a.selected, ul#navigation li a:hover { background: #000; color: #fff; padding: 10px 10px 20px 10px; }
+
+
+#info-box { float: left;}
+#info-box.right { float: left; margin-left: 28px;}
+#content-box { background: url(/site_media/images/box-bg.png) no-repeat; margin-top: -20px; width: 247px; height: 199px; position: relative; z-index: 2; }
+#info-box h3 {  background: url('/site_media/images/latest-tweets-tab.png') no-repeat; width: 119px; height: 34px; z-index: 1; color: #fff; font-size: 1.7em; font-weight: normal; padding-left: 10px; padding-top: 5px;}
+#info-box h4 { color: #fff; font-size: 1.2em; font-weight: bold; margin: 0; padding: 0; margin-left: 10px; padding: 20px 0 0 0;}
+#center #info-box.latest-entry p { margin-top: 10px; padding-top: 0; margin-left: 10px;}
+
+ul#tweets { margin-top: 0px; margin-left: 23px; padding: 20px 0 0 0;}
+ul#tweets li { font-size: 1.2em; color: #fff; margin-bottom: 9px; line-height: 1.4em; width: 190px;}
+ul#tweets li a { font-size: 1em; text-decoration: none;}
+.twitter-text { color: #abcb55; }
+
+#submit-talk-small { background: url('/site_media/images/submit-small-normal.gif'); width: 162px; height: 54px; display: block;}
+#register-small { background: url('/site_media/images/register-button-normal.gif'); width: 162px; height: 54px; display: block;}
+#submit-talk-large { background: url('/site_media/images/submit-large-normal.gif'); width: 522px; height: 54px; display: block; clear: both; margin-top: 40px; margin-bottom: 20px;}
+
+
+#sponsor-box, .box { text-align: left; margin-top: -5px;}
+.box { margin-top: 5px; }
+#sponsor-box.company-logo {  border: 1px solid #323232; }
+#sponsor-box h3, .box h3 { color: #abcb55; font-weight: normal; text-transform: uppercase; width: 120px;  margin-left: 0px;}
+.box h3 { margin-top: 20px;}
+
+.blog-entry, .comment-entry { border-bottom: 1px dashed #484848; margin-bottom: 15px; width: 522px; padding-bottom: 10px;}
+.comment-entry { padding-bottom: 10px;}
+.last-comment { border-bottom : 1px solid #484848;}
+#post-detail.blog-entry { border-bottom: 1px solid #484848; padding-bottom: 20px; margin-bottom: 10px;}
+.last-entry { border-bottom: none;}
+
+#center a { color: #abcb55; font-size: 1.2em;}
+.entry-header { color: #484848;}
+#center .entry-header h3 { float: left; margin-top: 0; color: #8c8c8c;}
+#center .entry-header h3 a, #center .entry-header h2 a { font-size: 1em; text-decoration: none;}
+#center .entry-header h2 { float: left; margin-top: 0;}
+#center .entry-header h2 a { font-size: 0.7em;}
+#center span.bar { font-size: 0.7em;}
+
+div#archive ul { margin-left: 12px;}
+
+ul.entry-meta { list-style: none; margin: 0; padding: 0; clear: both;}
+ul.entry-meta li { list-style-type: none; color: #fff; font-size: 1.2em; display: inline; padding-right: 5px;}
+#center p a, #center ul.entry-meta li a, #center ul#archive li a { font-size: 1em; text-decoration: none;}
+#center .entry-header p a { margin-left: 6px; display: inline; font-size: 1.2em; text-decoration: none;}
+
+ul#archive { color: #fff; margin-left: 10px; padding-left: 0; }
+ul#archive li { font-size: 1.2em; margin-bottom: 10px;}
+
+#center #info-box p {margin-top: 0px; margin-left: 10px; padding: 25px 0 0 0; font-size: 1.2em;}
+
+#side-nav { position: relative; background: #0f0f0f; width: 163px; padding: 10px 0; margin-top: 20px; text-align: left;}
+#archive { margin-top: 10px; position: relative; background: #0f0f0f;  width: 163px; padding: 10px 0; text-align: left;}
+#side-nav ul li, #archive ul li { list-style-type: none; line-height: 2.5em;}
+#side-nav ul li a, #archive ul li a {color: #8e8e8e; text-decoration: none; font-size: 1.2em;}
+#side-nav ul li a.selected, #archive ul li a.selected { color: #9dcc49;}
+#side-nav ul, html body div#archive ul { list-style: none; margin: 0 0 0 20px; padding: 0;}
+div.box h3 { margin-left: 6px; }
+#comment-form label, #contact-form label { display: block; color: #fff; font-size: 1.2em; margin-bottom: 5px;}
+#comment-form div, #contact-form div { float: left; margin-right: 29px;}
+#comment-form div.last, #contact-form div.last { margin-right: 0;}
+#comment-form div.comment-input, #contact-form div.message { float: none; clear: both; position: relative; display: block; margin-right: 0;}
+#id_comment, #id_body { width: 522px;}
+div.comment-input, div.message { padding-top: 20px;}
+
+img { border: none;}
+#center p.pagination { color: #8c8c8c; width: 215px; margin-top: 35px;}
+#center p.pagination span.bars { margin: 0px 20px;}
+
+
+.next-arrow { background: url('/site_media/images/next-arrow.gif') no-repeat; width: 4px; height: 7px;  margin-top: 8px; margin-right: 10px; display: block; float: right;}
+span.prev-arrow { background: url('/site_media/images/previous-arrow.gif') no-repeat; width: 4px; height: 7px;  margin-top: 8px; margin-right: 10px; display: block; float: left;}
+span.next-arrow-last { background: url('/site_media/images/next-arrow-last.gif') no-repeat; float: right;width: 4px; height: 7px; margin-top: 8px; margin-right: 10px; display: block;}
+span.prev-arrow-last { background: url('/site_media/images/previous-arrow-last.gif') no-repeat; width: 4px; height: 7px;  margin-top: 8px; margin-right: 10px; display: block; float: left;}
+
+input.send { background: url('/web/20100621033615im_/http://www.djangocon.org/site_media/images/buttons.gif') no-repeat; width: 57px; height: 20px; border: none; margin-top: 10px; margin-left: -10px; cursor: pointer;}
+
+#center p.comment-count { font-size: 1.5em; margin-bottom: 40px;}
+
+#center .comment-entry h3 { font-size: 1.5em;}
+#center .comment-entry h3 a { font-size: 1em; text-decoration: none;}
+.date { color: #fff;}
+.errors { color: red; display: block; font-size: 1.2em; margin-bottom: 5px;}
+
+#center ul#archive-list { margin: 0 0 0 13px; padding: 0;}
+ul#archive-list li { margin: 0 0 15px 0; padding: 0; color: #fff; list-style-type: bullet; font-size: 1.2em;}
+ul#archive-list li a { font-size: 1em; text-decoration: none;}
+
+#talk-proposal-form label { display: block; color: #717171; font-size: 1.2em; margin-bottom: 15px;}
+#talk-proposal-form input, #talk-proposal-form textarea { margin-bottom: 15px; width: 522px;}
+#talk-proposal-form div { border-bottom: 1px dashed #717171; padding: 20px 0;}
+#talk-proposal-form div.form-section { border-bottom: 1px solid #717171;}
+#talk-proposal-form div.form-last { border-bottom: none;}
+#talk-proposal-form div.last { border-bottom: none;}
+#center .submit { margin-top: 10px; margin-left: -2px; clear: both;}
+#talk-proposal-form #id_permission_to_record { margin-left: 0; width: auto; }
+#center a:hover { color: #8c8c8c;}
+.last { border: none; }
+#center input.form-submit { width: 100px; }
+#center #info-box a:hover { color: #8c8c8c; }
+
+html body ul.general { margin-left: 0; padding-left: 15px;}
+html body ul.general li { color: #fff; font-size: 1.2em; line-height: 1.6em;}
+
+textarea.code { text-align: left; padding: 0; margin: 0; font-size: 1em; width: 515px; }
+p a img { border: none;}
+
+html body #post-detail ul li { color: #fff; font-size: 1.2em; line-height: 1.6em; }
+html body #post-detail ul { color: #fff; }
+html body #post-detail ul li a { font-size: 1em; text-decoration: none;}
+
+html body .comment-entry ul li { margin-left: 0; line-height: 0.8em;}
+html body .comment-entry ul { margin-left: 0; padding-left: 0; }
+
+ul#sponsors li { margin-bottom: 400px; }
+
+/*
+     FILE ARCHIVED ON 03:36:15 Jun 21, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:50:26 Apr 07, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
